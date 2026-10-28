@@ -1,0 +1,19 @@
+# Gitignore for C Programming Assignments
+
+# 1. Block Windows Executables
+*.exe
+*.lnk
+
+# 2. Block compiled object files and libraries
+*.o
+*.obj
+*.out
+
+# 3. Block Mac/Linux Compiled Executables (Extensionless)
+# This rule matches executable outputs commonly made in terminal compilation 
+myprogram
+a.out
+
+# 4. Block VS Code Environment and Workspace configuration caches
+.vscode/
+*.log
